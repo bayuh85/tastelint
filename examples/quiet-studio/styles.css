@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Fraunces Local";
+  src: local("Fraunces");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  background: #f6f1ea;
+  color: #1c1917;
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  text-align: left;
+}
+
+.mast,
+.split {
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+h1,
+h2 {
+  font-family: Fraunces, "Iowan Old Style", Georgia, serif;
+  font-weight: 560;
+  letter-spacing: -0.03em;
+  color: #1c1917;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 4.5rem;
+  line-height: 0.95;
+}
+
+.deck,
+.split p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  max-width: 38rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #7c2d12;
+}
+
+.book {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: #9a3412;
+  color: #fffaf3;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+a {
+  color: #9a3412;
+}
